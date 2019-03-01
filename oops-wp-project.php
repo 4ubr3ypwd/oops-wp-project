@@ -32,11 +32,11 @@ function project() {
 	static $project = null;
 
 	if ( null === $project ) {
-
-		// Create the app and go!
 		$project = new Project( __FILE__ );
 
 		$project->register_hooks();
+		$project->attach_services();
+		$project->run();
 	}
 
 	return $project;
