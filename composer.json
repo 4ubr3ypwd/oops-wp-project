@@ -1,0 +1,14 @@
+{
+	"name": "webdevstudios/oops-wp-project",
+	"description": "",
+	"homepage": "https://github.com/WebDevStudios/oops-wp-project",
+	"license": "GPL-2.0+",
+	"support": {
+		"issues": "https://github.com/WebDevStudios/oops-wp-project/issues",
+		"source": "https://github.com/WebDevStudios/oops-wp-project"
+	},
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
